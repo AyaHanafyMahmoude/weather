@@ -1,0 +1,139 @@
+#sec-section {
+    background-image   : url("../images/im1.png");
+    background-position: center;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+    padding-bottom: 50px;
+}
+.sq-size{
+    width: 40px;
+    height: 40px;
+}
+
+.item{
+    background-color: #2d303d;
+}
+.second-item{
+background-color: #222530;
+}
+.nav-link{
+    color: white;
+}
+.nav-item  {
+    padding: 5px 25px ;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    
+    color: white;
+    transition:border .3s ease, color 0.6s ;
+    font-weight: 400;
+}
+
+.navbar-toggler:focus {
+    
+    box-shadow: 0px 0px 0 0.25rem #06a3d8;
+}
+.bg-icon{
+    background-color: #1e202b;
+}
+.bg-icon:hover{
+    background-color: #06a3d8;
+    color: white;
+}
+.text{
+color: #06a3d8;
+}
+
+.nav-item:hover  {
+   
+    border: 2px solid#06a3d8;
+    color: #06a3d8;
+    
+    
+}
+.coler{
+    background-color:#06a3d8;
+}
+
+  
+    @media screen and (max-width: 479px) { 
+        .btn-pos{
+           
+            left:66% !important;
+           
+        }
+     }
+  
+ 
+    @media  screen and (min-width: 480px) and (max-width: 767px) { 
+        .btn-pos{
+           
+            left:79% !important;
+           
+        }
+     }
+  
+  
+    @media  screen and (min-width: 768px) and (max-width: 991px) { 
+        .btn-pos{
+           
+        left:84% !important;
+       
+    } 
+}
+  
+ 
+  @media  screen and (min-width: 992px) and (max-width: 1199px) { 
+      .btn-pos{
+           
+    left:88% !important;
+   
+}  }
+  
+  
+    /*  @media only screen and (min-width: 1200px) { @content; } */
+  
+
+.nav-item a{
+    transition: color 0.6s;
+}
+.nav-item:hover a  {
+   
+   
+    color: #06a3d8;
+    
+    
+}
+
+   
+
+.form-control:focus {
+    border-color: transparent;
+    box-shadow  : 0 0 0 0.25rem transparent !important;
+}
+
+.input-fild {
+    position: relative;
+}
+.hi{
+    height: 380px;
+    background-color:#323544;
+}
+.hi2{
+    height: 380px;
+    background-color: #262936;
+}
+
+
+.btn-pos{
+    position: absolute;
+    top: 3px;
+    left:90%;
+    width: 100px;
+    height: 52px;
+    border-top-right-radius: 40px;
+    border-end-end-radius: 40px;
+}
+#input-search{
+position: relative;
+}
